@@ -103,6 +103,7 @@ export default function App () {
           <NumericInput
             onChange={v => setbottles(v)}
             bottles={bottles}
+            minValue={0}
             totalWidth={100}
             rounded
             TextColor={'balck'}
@@ -114,6 +115,7 @@ export default function App () {
           <NumericInput
             onChange={v => sethours(v)}
             hours={hours}
+            minValue={0}
             totalWidth={100}
             rounded
             TextColor={'balck'}
