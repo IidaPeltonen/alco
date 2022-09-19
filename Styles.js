@@ -15,25 +15,25 @@ export const lightTheme = StyleSheet.create({
         backgroundColor: 'lightblue',
         borderWidth: 2,
     },
-    text: {
+    Text: {
         color: 'black',
         paddingBottom: 5,
         alignItems: 'center'
     },
-    textOtsikkoIso: {
+    TextOtsikkoIso: {
         fontSize: 25,
         fontWeight: 'bolder',
         marginTop: 20,
         color: 'green',
         marginBottom: 15,
     },
-    textOtsikko: {
+    TextOtsikko: {
         color: 'black',
         fontSize: 20,
         fontWeight: 'bold',
         marginBottom:10
     },
-    textInput: {
+    TextInput: {
         backgroundColor: '#fff',
         borderWidth: 1,
         borderColor: 'black',
@@ -45,11 +45,10 @@ export const lightTheme = StyleSheet.create({
         alignSelf: 'center',
         alignContent: 'center',
         justifyContent: 'center',
-        backgroundColor: 'orange',
-        color: 'black',
+        backgroundColor: 'black',
         width: 60,
         padding: 15,
-        margin: 10
+        margin: 15
     },
     field: {
         flexDirection: 'row',
@@ -76,27 +75,26 @@ export const darkTheme = StyleSheet.create({
         ...lightTheme.label,
         backgroundColor: 'black',
     },
-    text: {
-        ...lightTheme.text,
+    Text: {
+        ...lightTheme.Text,
         color: 'white'
     },
-    textOtsikkoIso: {
-        ...lightTheme.textOtsikkoIso,
+    TextOtsikkoIso: {
+        ...lightTheme.TextOtsikkoIso,
         color: 'yellow',
     },
-    textOtsikko: {
-        ...lightTheme.textOtsikko,
+    TextOtsikko: {
+        ...lightTheme.TextOtsikko,
         color: 'white',
     },
-    textInput: {
-        ...lightTheme.textInput,
+    TextInput: {
+        ...lightTheme.TextInput,
         backgroundColor: '#fff',
         borderColor: 'black',
     },
     result: {
         ...lightTheme.result,
-        backgroundColor: 'pink',
-        color: 'blue'
+        backgroundColor: 'grey'
     },
     field: {
         ...lightTheme.field,
